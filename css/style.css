@@ -1,0 +1,101 @@
+/* login button */
+#login_button {
+    background-color: #44A1D0; border: 1px solid #000000;
+    color: #000000; height: 22px; line-height: 22px;
+    padding: 5px; width: 52px;
+}
+
+#login_button:hover {text-decoration: none;}
+
+form p label
+{
+    display:block;
+    /*font:14px/22px Arial, Helvetica, Sans-serif;*/
+    margin:10px 0 0 6px;
+}
+
+input[type="checkbox"]#rememberme{
+	/*vertical-align:sub;*/
+	/**vertical-align:middle;*/
+	margin-left: 6px;
+}
+
+p input[type="text"],
+p input[type="password"],
+p input[type="email"],
+p select,
+p textarea
+{
+    border:6px solid #F7F9FA;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    -moz-box-shadow:2px 3px 3px rgba(0, 0, 0, 0.06) inset, 0 0 1px #95a2a7 inset;
+    -webkit-box-shadow:2px 3px 3px rgba(0, 0, 0, 0.06) inset, 0 0 1px #95a2a7 inset;
+    box-shadow:2px 3px 3px rgba(0, 0, 0, 0.06) inset, 0 0 1px #95a2a7 inset;
+    margin:3px 0 4px;
+    padding:8px 6px;
+    width: 92%;
+    display:block;
+}
+
+p input[type="text"]:focus,
+p input[type="password"]:focus,
+p input[type="email"]:focus,
+p select:focus
+p textarea:focus
+{
+    border:6px solid #f0f7fc;
+    -moz-box-shadow:2px 3px 3px rgba(0, 0, 0, 0.04) inset, 0 0 1px #0d6db6 inset;
+    -webkit-box-shadow:2px 3px 3px rgba(0, 0, 0, 0.04) inset, 0 0 1px #0d6db6 inset;
+    box-shadow:2px 3px 3px rgba(0, 0, 0, 0.04) inset, 0 0 1px #0d6db6 inset;
+    color:#333;
+}
+
+select
+{
+    width: 97%; /*294px;*/
+}
+
+p textarea {resize: vertical;}
+
+p input[type="submit"]
+{
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-radius:15px;
+    background: #44A1D0; /*a1d8f0*/
+    /*background:-moz-linear-gradient(top, #badff3, #7acbed);*/
+    /*background:-webkit-gradient(linear, left top, left bottom, from(#badff3), to(#7acbed));*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#badff3', EndColorStr='#7acbed')";
+    border:1px solid #7db0cc !important;
+    cursor: pointer;
+    padding:11px 16px;
+    font:bold 11px/14px Verdana, Tahomma, Geneva;
+    text-shadow:rgba(0,0,0,0.2) 0 1px 0px; 
+    color:#fff;
+    -moz-box-shadow:inset rgba(255,255,255,0.6) 0 1px 1px, rgba(0,0,0,0.1) 0 1px 1px;
+    -webkit-box-shadow:inset rgba(255,255,255,0.6) 0 1px 1px, rgba(0,0,0,0.1) 0 1px 1px;
+    box-shadow:inset rgba(255,255,255,0.6) 0 1px 1px, rgba(0,0,0,0.1) 0 1px 1px;
+    margin: 5px 6px 0 0;
+    /*float: right;*/
+    padding:7px 21px;
+}
+
+p input[type="submit"]:hover,
+p input[type="submit"]:focus,
+p input[type="submit"]:active
+{
+    background:#a1d8f0;
+    background:-moz-linear-gradient(top, #7acbed, #badff3);
+    background:-webkit-gradient(linear, left top, left bottom, from(#7acbed), to(#badff3));
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#7acbed', EndColorStr='#badff3')";
+}
+
+p input[type="submit"]:active
+{
+    text-shadow:rgba(0,0,0,0.3) 0 -1px 0px; 
+}
+
+.error {background-color: #FFEBE8; border: 1px solid #C00; padding: 5px;}
+.success {background-color: #CCFF99; border: 1px solid #008000; padding: 5px;}

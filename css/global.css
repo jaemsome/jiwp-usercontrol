@@ -1,0 +1,54 @@
+.clear {clear: both;}
+
+/*.full-width {width: 100%;}
+.half-width {width: 50%;}
+.quarter-width {width: 25%;}*/
+.kmi-one-column {width: 100%;}
+.kmi-two-columns {width: 50%;}
+.kmi-three-columns {width: 33.33%;}
+.kmi-four-columns {width: 25%;}
+.kmi-five-columns {width: 20%;}
+.kmi-six-columns {width: 16.66%;}
+.kmi-seven-columns {width: 14.28%;}
+.kmi-eight-columns {width: 12.5%;}
+.kmi-nine-columns {width: 11.11%;}
+.kmi-ten-columns {width: 10%;}
+
+.left {float: left;}
+.right {float: right;}
+.align-center {text-align: center;}
+.align-left {text-align: left;}
+
+.no-text-decoration {text-decoration: none;}
+.vertical-resize {resize: vertical;}
+
+.success {background-color: #CCFF99; border: 1px solid #008000; padding: 5px;}
+.error {background-color: #FFEBE8; border: 1px solid #C00; padding: 5px;}
+
+.bold {font-weight: bold;}
+.bolder {font-weight: bolder; font-size: 18px;}
+.no-style {list-style: none;}
+
+.bottom-border {border-bottom: 1px solid;}
+
+.bg-grey {background-color: #D4D4D4;}
+
+table.kmi-table
+{
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+table.kmi-table th
+{
+    border: 1px solid;
+    padding: 3px;
+    vertical-align: top;
+    margin: 0;
+}
+table.kmi-table td
+{
+    border: 1px solid;
+    padding: 7px 5px;
+    vertical-align: top;
+    margin: 0;
+}
